@@ -1,6 +1,7 @@
 import { InputSearch } from '@/components/input-search'
 import { Logo } from '@/components/logo'
 import { CardWeatherToday } from './components/card-weather-today'
+import { CardWeatherDetail } from './components/card-weather-detail'
 
 export default function weather() {
   return (
@@ -17,7 +18,7 @@ export default function weather() {
         <CardWeatherToday />
       </div>
       <div className="h-full flex flex-col gap-4">
-        <div className="bg-gray-800 h-3/5 w-full rounded-xl"></div>
+        <CardWeatherDetail />
         <div className="bg-gray-800 h-2/5 w-full rounded-xl">h2</div>
       </div>
     </div>
