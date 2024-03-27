@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function CardWeatherToday() {
   return (
-    <div className="relative bg-[url('/backgrounds/background-few-clouds-night.svg')] bg-cover w-full h-full rounded-lg flex flex-col justify-between px-8 pt-8 pb-9">
+    <div className="relative bg-[url('/backgrounds/background-few-clouds-night.svg')] h-[19rem] bg-cover w-full md:h-full rounded-lg flex flex-col justify-between px-5 md:px-8 pt-5 md:pt-8 pb-5 md:pb-9">
       <div className="flex justify-between">
         <div className="space-y-2">
           <strong className="block font-bold text-base sm:text-xl/7">
